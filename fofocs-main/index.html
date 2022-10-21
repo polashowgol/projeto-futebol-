@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Padrão</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 194, 255);
+        }
+
+        header {
+            min-height: 80px;
+            background-color: rgb(56, 4, 56);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 1.2em;
+            color: white;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            transform: scale(1.2, 1.2);
+            color: rgb(255, 167, 255);
+            text-shadow: 0 0 6px rgba(255, 0, 255, 0.349);
+        }
+
+        .container {
+            margin: 5vw;
+        }
+
+        .mangas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .manga {
+            box-shadow: 0 0 10px rgba(121, 0, 115, 0.397);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            gap: 10px;
+        }
+
+        .manga img {
+            height: 260px;
+            width: 180px;
+            object-fit: cover;
+        }
+
+        .manga p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            JOGADORES
+        </span>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Jogadores</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="container">
+            <div class="mangas">
+                <div class="manga">
+                    <img src="messi-background-2021.jpg"
+                        alt="">
+                    <div>
+                        <h2>Messi</h2>
+                        <p>Lionel Andrés Messi Cuccittini é um futebolista argentino que atua como 
+                            atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção 
+                            Argentina, onde é capitão. Wikipédia
+                            Nascimento: 24 de junho de 1987 (idade 35 anos), Rosário, Argentina
+                            Altura: 1,69 m
+                            Medalha de ouro: Futebol nos Jogos Olímpicos de Verão de 2008 - Masculino
+                            Equipes atuais: Paris Saint-Germain Football Club (#30 / Atacante,
+                             Seleção Argentina de Futebol (#10 / Atacante)
+                            Salário: 41 milhões USD (2022)
+                            Tamanho do sapato: 10
+                            Peso: 67 kg
+                        !</p>
+                    </div>
+                </div>
+                <div class="manga">
+                <img src= "Neymar.jpg"
+                alt=>
+                    <div>
+                        <h2>Neymar</h2>
+                        <p> Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar,
+                             é um futebolista brasileiro que atua como atacante. Atualmente joga
+                              pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado 
+                              o principal futebolista brasileiro da atualidade e um dos melhores
+                               futebolistas do mundo. Wikipédia
+                            Nascimento: 5 de fevereiro de 1992 (idade 30 anos),
+                             Mogi das Cruzes, São Paulo
+                            Salário: 40,8 milhões GBP (2022)
+                            Equipes atuais: Paris Saint-Germain Football Club 
+                            (#10 / Atacante), Seleção Brasileira (#10 / Atacante), Brazil
+                            Filhos: Davi Lucca da Silva Santos
+                            Peso: 68 kg
+                            Altura: 1,75 m
+                            Irmãs: Rafaella Santos
+                        
+                    </p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="lewa-furto-600x400.jpg"
+                        alt="">
+                    <div>
+                        <h2>Lewandowski</h2>
+                        <p>
+                            Robert Lewandowski é um futebolista polaco que atua como
+                             centroavante. Atualmente joga pelo Barcelona e pela Seleção 
+                             Polonesa. Reconhecido pela eficiência, finalização e pelo grande
+                              número de gols marcados, é considerado como um dos melhores 
+                              atacantes de sua geração, por vezes colocado como o melhor
+                               da atualidade. Wikipédia
+                            Nascimento: 21 de agosto de 1988 (idade 34 anos),
+                             Varsóvia, Polônia
+                            Equipes atuais: Futbol Club Barcelona (#9 / Atacante),
+                             Seleção Polonesa de Futebol (#9 / Atacante)
+                            Salário: 23 milhões EUR (2022)
+                            Altura: 1,85 m
+                            Pais: Iwona Lewandowska, Krzysztof Lewandowski
+                            Tamanho do sapato: 9
+                            Peso: 81 kg</p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="images.jpeg"
+                        alt="">
+                    <div>
+                        <h2>Cristiano Ronaldo</h2>
+                        <p> Cristiano Ronaldo Dos
+                             Santos Aveiro é umfutebolista português que atua como extremo-esquerdo ou ponta de lança. Atualmente joga pelo Manchester United e pela Seleção Portuguesa, onde é capitão. Wikipédia
+Nascimento: 5 de
+ fevereiro de 1985 (idade 37 anos), Hospital Dr. Nélio Mendonça, Funchal, Portugal
+Filhos: Cristiano Ronaldo Jr., Eva Maria Dos Santos,
+ Bella Esmeralda, Alana Martina dos Santos Aveiro, Mateo Ronaldo
+Equipe atual: Seleção Portuguesa de Futebol (#7 / Atacante)
+Salário: 26,8 milhões GBP (2023)
+Peso: 85 kg
+Altura: 1,87 m
+Irmãos: Hugo Aveiro, Liliana Catia Aveiro, Elma Aveiro</p>
+                    </div>
+                </div>
+                <div class="manga">
+                    <img src="halaand.jpg"
+                        alt="">
+                    <div>
+                        <h2>Halaand</h2>
+                        <p>Erling Braut Haaland é um futebolista norueguês nascido
+                             no Reino Unido que atua como centroavante pelo Manchester 
+                             City e pela Seleção Norueguesa. É considerado um dos melhores 
+                             atacantes do futebol mundial e um dos melhores jovens jogadores 
+                             do mundo. Wikipédia
+                            Nascimento: 21 de julho de 2000 (idade 22 anos), Leeds, Reino Unido
+                            Altura: 1,94 m
+                            Equipes atuais: Manchester City Football Club (#9 / Atacante), 
+                            Seleção Norueguesa de Futebol (Atacante)
+                            Pais: Alf-Inge Håland, Gry Marita Braut
+                            Peso: 88 kg
+                            .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</body>
+
+</html>
